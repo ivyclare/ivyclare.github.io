@@ -4,7 +4,7 @@ permalink: /blog/
 author_profile: true
 title: "By Category/"
 header:
-     image: "https://beltus.github.io/vision/assets/images/galax_article.jpg"
+     image: "/assets/images/header2.jpg"
 ---
 
 layouts_gallery:
