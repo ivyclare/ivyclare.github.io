@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-11T13:30:03+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ivy’s blog</title><subtitle>All things AI</subtitle><author><name>Ivoline Ngong</name></author><entry><title type="html">PATE Framework</title><link href="http://localhost:4000/comic/pate/" rel="alternate" type="text/html" title="PATE Framework" /><published>2020-05-11T00:00:00+03:00</published><updated>2020-05-11T00:00:00+03:00</updated><id>http://localhost:4000/comic/pate</id><content type="html" xml:base="http://localhost:4000/comic/pate/">&lt;!-- ---
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-11T17:46:08+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ivy’s blog</title><subtitle>All things AI</subtitle><author><name>Ivoline Ngong</name></author><entry><title type="html">PATE Framework</title><link href="http://localhost:4000/comic/pate/" rel="alternate" type="text/html" title="PATE Framework" /><published>2020-05-11T00:00:00+03:00</published><updated>2020-05-11T00:00:00+03:00</updated><id>http://localhost:4000/comic/pate</id><content type="html" xml:base="http://localhost:4000/comic/pate/">&lt;p&gt;Due to the lack of regularly updated database of COVID-19 cases in Senegal, I decided to build an open database and a web application to display this information.&lt;/p&gt;
+
+&lt;!-- ---
 layout: single
 published: true
 title: PATE Framework
@@ -21,17 +23,4 @@ title: &quot;PATE Analysis&quot;
 collection: ml
 header:
      image: &quot;/assets/images/header2.jpg&quot;
---- --&gt;
-
-&lt;h1 id=&quot;detecting-an-invisible-enemy-with-invisible-data&quot;&gt;Detecting an Invisible Enemy With Invisible Data&lt;/h1&gt;
-&lt;h3 id=&quot;detecting-covid19-through-differential-privacy&quot;&gt;Detecting COVID19 through Differential Privacy&lt;/h3&gt;
-
-&lt;p&gt;Let me introduce you to Alice. Alice is the head of a DL research team in a hospital and her job is to find ways to assist doctors in their fight against diseases. Due to the coronavirus(the invisible enemy) pandemic, there is a growing number of patients and  a pool of CT images waiting to be diagnosed. She decides to create an image classifier which would not only reduce the burden on clinicians and help them make more informed decisions, it would also lead to faster diagnosis and potentially save lives. However, there is a challenge; &lt;strong&gt;her CT Images are not labelled&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;It comes to her attention that 5 other hospitals have annotated (positive or negative for COVID 19) CT scans which is exactly what she needs. Even though these hospitals are willing to help, they have privacy concerns about sharing information about their patients and so cannot give out the data. How can Alice make use of these datasets without accessing them directly? How can she assure these hospitals that the patients data will be protected? Is it even a possibility?. We try to answer these questions in this blog post and help Alice solve her problem.&lt;/p&gt;
-
-&lt;p&gt;Spoiler alert! Yes, it is possible :).&lt;/p&gt;
-
-&lt;p&gt;We are not only going to learn how this is possible, we are also going to do a hands on implementation on a COVID-19 dataset.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;</content><author><name>Ivoline Ngong</name></author><summary type="html"></summary></entry></feed>
+--- --&gt;</content><author><name>Ivoline Ngong</name></author><summary type="html">Due to the lack of regularly updated database of COVID-19 cases in Senegal, I decided to build an open database and a web application to display this information.</summary></entry></feed>

@@ -4,7 +4,7 @@ permalink: /comic/
 author_profile: true
 title: "Ivy's Comics"
 header:
-     image: "/assets/images/header1.jpg"
+     image: "/assets/images/comic_header.jpg"
 ---
 
 Navigate through the different comics I've created here:

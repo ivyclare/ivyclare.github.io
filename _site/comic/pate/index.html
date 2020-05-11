@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>PATE Framework - Ivy’s blog</title>
-<meta name="description" content=" ">
+<meta name="description" content="Due to the lack of regularly updated database of COVID-19 cases in Senegal, I decided to build an open database and a web application to display this information. ">
 
 
   <meta name="author" content="Ivoline Ngong">
@@ -23,11 +23,11 @@
 <meta property="og:url" content="http://localhost:4000/comic/pate/">
 
 
-  <meta property="og:description" content=" ">
+  <meta property="og:description" content="Due to the lack of regularly updated database of COVID-19 cases in Senegal, I decided to build an open database and a web application to display this information. ">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/header2.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/images/differential_privacy.png">
 
 
 
@@ -159,6 +159,24 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/images/differential_privacy.png" alt="PATE Framework" class="page__hero-image">
+  
+  
+</div>
+
+
 
 
 
@@ -305,7 +323,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="PATE Framework">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="Due to the lack of regularly updated database of COVID-19 cases in Senegal, I decided to build an open database and a web application to display this information.">
     <meta itemprop="datePublished" content="2020-05-11T00:00:00+03:00">
     
 
@@ -320,7 +338,7 @@
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
           
@@ -329,22 +347,9 @@
 
       <section class="page__content" itemprop="text">
         
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#detecting-an-invisible-enemy-with-invisible-data">Detecting an Invisible Enemy With Invisible Data</a>
-     -  <a href="#detecting-covid19-through-differential-privacy">Detecting COVID19 through Differential Privacy</a>
-    <ul>
-      <li><a href="#problem">Problem</a></li>
-    </ul>
-  </li>
-</ul>
+        <p>Due to the lack of regularly updated database of COVID-19 cases in Senegal, I decided to build an open database and a web application to display this information.</p>
 
-            </nav>
-          </aside>
-        
-        <!-- ---
+<!-- ---
 layout: single
 published: true
 title: PATE Framework
@@ -368,19 +373,6 @@ collection: ml
 header:
      image: "/assets/images/header2.jpg"
 --- -->
-
-<h1 id="detecting-an-invisible-enemy-with-invisible-data">Detecting an Invisible Enemy With Invisible Data</h1>
-<h3 id="detecting-covid19-through-differential-privacy">Detecting COVID19 through Differential Privacy</h3>
-
-<p>Let me introduce you to Alice. Alice is the head of a DL research team in a hospital and her job is to find ways to assist doctors in their fight against diseases. Due to the coronavirus(the invisible enemy) pandemic, there is a growing number of patients and  a pool of CT images waiting to be diagnosed. She decides to create an image classifier which would not only reduce the burden on clinicians and help them make more informed decisions, it would also lead to faster diagnosis and potentially save lives. However, there is a challenge; <strong>her CT Images are not labelled</strong>.</p>
-
-<p>It comes to her attention that 5 other hospitals have annotated (positive or negative for COVID 19) CT scans which is exactly what she needs. Even though these hospitals are willing to help, they have privacy concerns about sharing information about their patients and so cannot give out the data. How can Alice make use of these datasets without accessing them directly? How can she assure these hospitals that the patients data will be protected? Is it even a possibility?. We try to answer these questions in this blog post and help Alice solve her problem.</p>
-
-<p>Spoiler alert! Yes, it is possible :).</p>
-
-<p>We are not only going to learn how this is possible, we are also going to do a hands on implementation on a COVID-19 dataset.</p>
-
-<h2 id="problem">Problem</h2>
 
         
       </section>
@@ -494,6 +486,25 @@ header:
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/comic/pate/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/comic/pate"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-ivyclare-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 
