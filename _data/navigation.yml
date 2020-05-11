@@ -3,7 +3,9 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "Projects"
-    url: /project/
+    url: /projects/
+  - title: "Comics"
+    url: /comics/
   - title: "Resume"
     url: /cv/
   - title: "About"

@@ -175,6 +175,26 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Collections
+collections:
+  dl:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  ml:
+    output: true
+    permalink: /:collection/:path/
+  comic:
+    output: true
+    permalink: /:collection/:path/
+  bigdata:
+    output: true
+    permalink: /:collection/:path/
+  tuto:
+    output: true
+    permalink: /:collection/:path/
 
 # Conversion
 markdown: kramdown
@@ -215,6 +235,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -223,6 +244,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
@@ -265,6 +287,26 @@ compress_html:
 
 # Defaults
 defaults:
+
+  # _ml
+  - scope:
+      path: ""
+      type: ml
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
+
+  # _sc
+  - scope:
+      path: ""
+      type: sc
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
   # _posts
   - scope:
       path: ""
@@ -273,6 +315,20 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+  - scope:
+      path: "img"
+    values:
+      image: true
+
+  #_pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+        layout: single
+        author_profile: true
+        comments: true

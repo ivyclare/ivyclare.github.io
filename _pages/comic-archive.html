@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "Ivy's Comics"
+permalink: /comics/
+author_profile: true
+header:
+     image: "/assets/images/header1.jpg"
+---
+
+A series of projects I have realized over the past months, including Machine Learning, NLP, Computer Vision, Data Engineering, Visualization...
+
+<br>
+<br>
+
+
+<div class="grid__wrapper">
+    {% for post in site.posts %}
+        {% if post.categories contains 'comic' %}
+            {% include archive-single.html type="grid" %}
+        {% endif %}
+    {% endfor %}
+</div>
+<!--
+<div class="grid__wrapper">
+    {% for post in posts %}
+        {% if post.categories contains 'comic' %}
+            {% include archive-single.html type="grid" %}
+        {% endif %}
+    {% endfor %}
+</div> -->
