@@ -2,7 +2,7 @@
 title: Machine Learning
 layout: single
 permalink: /ml/
-author_profile: false
+author_profile: true
 header :
     image: "/assets/images/ml_header.jpg"
 sidebar:

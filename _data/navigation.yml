@@ -9,7 +9,7 @@ main:
   - title: "Resume"
     url: /resume/
   - title: "About"
-    url: /
+    url: /about/
   - title: "Search"
     url: /search/
 
