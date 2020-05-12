@@ -1,15 +1,15 @@
 ---
-title: Computer Vision
+title: Machine Learning
 layout: single
-permalink: /cv/
+permalink: /ml/
 author_profile: false
 header :
-    image: "/assets/images/cv_header.jpg"
+    image: "/assets/images/ml_header.jpg"
 sidebar:
     nav: sidebar-sample
 ---
 
-A series of articles dedicated to computer vision. All codes and exercises of this section are hosted on GitHub in a dedicated repository :
+A series of articles dedicated to machine learning. All codes and exercises of this section are hosted on GitHub in a dedicated repository :
 
 <!-- <div class="github-card" data-github="maelfabien/Machine_Learning_Tutorials" data-width="100%" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

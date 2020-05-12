@@ -7,9 +7,9 @@ main:
   - title: "Comics"
     url: /comics/
   - title: "Resume"
-    url: /cv/
+    url: /resume/
   - title: "About"
-    url: /docs/about/
+    url: /index/
   - title: "Search"
     url: /search/
 

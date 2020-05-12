@@ -6,11 +6,11 @@ title: "Topics"
 header:
      image: "/assets/images/header2.jpg"
 layouts_gallery:
-  - url: https://ivyclare.github.io/projects/
+  - url: https://ivyclare.github.io/ml/
     image_path: /assets/images/blog_ml.jpeg
   - url: https://ivyclare.github.io/dl/
     image_path: /assets/images/blog_dl.jpg
-  - url: https://ivyclare.github.io/bgd/
+  - url: https://ivyclare.github.io/cv/
     image_path: /assets/images/blog_cv.jpg
   - url: https://ivyclare.github.io/nlp/
     image_path: /assets/images/blog_nlp2.png

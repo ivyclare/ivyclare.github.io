@@ -1,12 +1,19 @@
 ---
-title: PATE
+title: List of Projects
 layout: single
 permalink: /projects/
-author_profile: false
+author_profile: true
+
 header :
     image: "/assets/images/header1.jpg"
+comments: false
 ---
 
+Here you can find some of the projects I have worked on over the past months.
+
+For more information visit my github and linked pages for codes
+
+...To be added
 <!-- In March 2020, I started my Ph.D. in Speech Processing at Idiap Research Institute, affiliated to EPFL. I tried to document the process, whether by describing technical concepts, or simply by writing about some projects, describing a typical day... -->
 
 

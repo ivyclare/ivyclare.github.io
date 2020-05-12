@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>List of Projects - Ivy’s blog</title>
+<!-- begin _includes/seo.html --><title>Search - Ivy’s blog</title>
 <meta name="description" content="All things AI ">
 
 
@@ -19,16 +19,14 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Ivy's blog">
-<meta property="og:title" content="List of Projects">
-<meta property="og:url" content="http://localhost:4000/projects/">
+<meta property="og:title" content="Search">
+<meta property="og:url" content="http://localhost:4000/search/">
 
 
   <meta property="og:description" content="All things AI ">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/header1.jpg">
-
 
 
 
@@ -42,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/projects/">
+<link rel="canonical" href="http://localhost:4000/search/">
 
 
 
@@ -103,7 +101,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--search">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -157,24 +155,6 @@
 
     <div class="initial-content">
       
-  
-
-
-
-
-
-
-
-<div class="page__hero"
-  style=" background-image: url('');"
->
-  
-    <img src="/assets/images/header1.jpg" alt="List of Projects" class="page__hero-image">
-  
-  
-</div>
-
-
 
 
 
@@ -299,57 +279,14 @@
 
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="List of Projects">
+  <div class="archive">
     
+      <h1 id="page-title" class="page__title">Search</h1>
     
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">List of Projects
-</h1>
-          
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-        <p>Here you can find some of the projects I have worked on over the past months.</p>
-
-<p>For more information visit my github and linked pages for codes</p>
-
-<p>…To be added
-<!-- In March 2020, I started my Ph.D. in Speech Processing at Idiap Research Institute, affiliated to EPFL. I tried to document the process, whether by describing technical concepts, or simply by writing about some projects, describing a typical day... --></p>
-
-<!-- <object data="/assets/images/pate.pdf" type="application/pdf" width="2700px" height="2700px">
-    <embed src="/assets/images/pate.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/images/pate.pdf">Download PDF</a>.</p>
-    </embed>
-</object> -->
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-      </footer>
-
-      
-
-      
-    </div>
 
     
-  </article>
-
-  
-  
+<input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div></div>
 </div>
 
     </div>
@@ -398,6 +335,10 @@
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
