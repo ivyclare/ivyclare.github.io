@@ -1,14 +1,11 @@
 ---
-layout: home
+layout: archive
+permalink: /about/
 author_profile: true
+title: "Welcome"
 header:
-  image: "/assets/images/header1.jpg"
-
-redirect_from:
-  - /about/
-
+     image: "/assets/images/header1.jpg"
 ---
-
 <h1> Welcome </h1>
 
 <p>I'm currently a Computer Science graduate student at Istanbul Technical University whose passion and research interests are directed towards image processing, computer vision, Machine Learning and Deep Learning.</p>
