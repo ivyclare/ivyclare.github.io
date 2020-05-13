@@ -4,10 +4,8 @@ permalink: /about/
 author_profile: true
 title: "Welcome"
 header:
-     image: "/assets/images/header1.jpg"
+     image: "/assets/images/header2.jpg"
 ---
-<h1> Welcome </h1>
-
 <p>I'm currently a Computer Science graduate student at Istanbul Technical University whose passion and research interests are directed towards image processing, computer vision, Machine Learning and Deep Learning.</p>
 <p>I hold a Bachelor's degree in Telecommunications Engineering from the University of Buea.</p>
 
