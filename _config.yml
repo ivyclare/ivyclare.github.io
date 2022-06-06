@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "Ivoline Ngong"
   avatar           : "/assets/images/profile_pic.jpg"
-  bio              : "AI rocks my world."
-  location         : "Turkey"
+  bio              : " the " # "AI rocks my world."
+  location         : "USA"
   email            :
   links:
     - label: "Email"
