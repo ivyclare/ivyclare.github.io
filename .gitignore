@@ -1,0 +1,18 @@
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Editor swap / temp files
+*.swp
+*.swo
+*~
+
+# Editor config dirs
+.idea/
+.vscode/
+
+# Defensive: this is a plain HTML/CSS site and should never need node,
+# but if a contributor accidentally `npm install`s, ignore the result.
+node_modules/
