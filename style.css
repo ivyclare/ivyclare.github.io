@@ -743,13 +743,13 @@ a:focus-visible {
 }
 
 .post h2 {
-  font-size: 22px;
+  font-size: 19px;
   font-variant: small-caps;
   letter-spacing: 0.04em;
   margin: var(--space-12) 0 var(--space-4) 0;
   padding-top: var(--space-6);
   border-top: 1px solid var(--border);
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
 /* No top divider on the very first section header — it would
