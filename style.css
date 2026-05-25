@@ -701,6 +701,21 @@ a:focus-visible {
   margin: 0;
 }
 
+.post .post-subtitle {
+  font-size: 17px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin: var(--space-2) 0 0 0;
+  line-height: 1.5;
+}
+
+.post .post-back {
+  margin-top: var(--space-12);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+  font-size: 15px;
+}
+
 .post p,
 .post ul,
 .post ol {
