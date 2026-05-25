@@ -743,10 +743,22 @@ a:focus-visible {
 }
 
 .post h2 {
-  font-size: 17px;
+  font-size: 22px;
   font-variant: small-caps;
   letter-spacing: 0.04em;
-  margin: var(--space-8) 0 var(--space-3) 0;
+  margin: var(--space-12) 0 var(--space-4) 0;
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--border);
+  line-height: 1.25;
+}
+
+/* No top divider on the very first section header — it would
+   double up with the intro paragraphs above. */
+.post p + h2:first-of-type,
+.post header + p + p + h2 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: var(--space-10);
 }
 
 .post h3 {
