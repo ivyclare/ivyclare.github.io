@@ -57,7 +57,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **QUAL-02**: All other pages also open correctly as local files with no console errors
 - [ ] **QUAL-03**: Every internal link (between the 5 pages, anchors within a page) resolves with no 404s
 - [ ] **QUAL-04**: Every external link resolves (no broken canonical URLs after Wayback prefix stripping)
-- [ ] **QUAL-05**: No tracking scripts, analytics, ads, or third-party tracking are present in any page
+- [ ] **QUAL-05**: No ad networks, cookie-based tracking, fingerprinting, or PII collection on any page. Privacy-respecting analytics (e.g. GoatCounter — no cookies, no PII, no consent banner) are permitted per the 2026-05-25 owner decision and do NOT violate this requirement.
 - [ ] **QUAL-06**: Page weight is small (no heavy unoptimized images); first paint is fast
 
 ### Documentation
@@ -85,7 +85,7 @@ Explicitly excluded. Documented to prevent scope creep.
 | Server-side code, PHP, database, server build step | Same as above — must be inert static files |
 | Jekyll or any static site generator | Brief prefers plain HTML committed directly; GitHub Pages must serve as-is with zero config |
 | Externally-loaded webfonts or CDN frameworks blocking render | Independence from external services that can break or disappear |
-| Analytics, ads, third-party tracking | Privacy and minimalism |
+| Ad networks, cookie/fingerprint-based tracking, PII collection | Privacy and minimalism (refined 2026-05-25: privacy-respecting analytics like GoatCounter ARE in scope) |
 | Backend-powered contact form | `mailto:` link is sufficient |
 | Visual redesign beyond "teal, Carlini-style" | Goal is faithful recreation, not reinvention |
 | DNS configuration, hosting setup, HTTPS enforcement | Owner handles manually post-build (PROJECT-BRIEF.md §10) |

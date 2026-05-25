@@ -44,7 +44,7 @@ online for free with zero maintenance, this project succeeded.
 - **WordPress / CMS / admin dashboard** — original was killed by dynamic resource usage; static-only is the whole point
 - **Server-side code, PHP, database, server build step** — same reason as above
 - **Externally-loaded webfonts or framework CDNs that block rendering** — must work fully self-contained
-- **Analytics, ads, third-party tracking** — privacy and minimalism
+- **Ad networks, cookie/fingerprint-based analytics, PII collection** — privacy and minimalism. (Refined 2026-05-25: lightweight no-cookie no-PII analytics like GoatCounter are now in scope — they don't violate the privacy intent and the owner wants minimal visit telemetry to see which posts get traction.)
 - **Backend-powered contact form** — `mailto:` link is sufficient
 - **Visual redesign beyond "teal, Carlini-style"** — goal is faithful recreation, not reinvention
 - **Jekyll / static site generators** — committed plain HTML keeps the repo serveable with zero configuration
@@ -85,6 +85,7 @@ online for free with zero maintenance, this project succeeded.
 | Code page redirects/links to GitHub profile | Owner's preference — they don't host curated code on this site, just point visitors to their GitHub. Decided 2026-05-19 in questioning. | — Pending |
 | News section renders inside a fixed-height scrollable container, not as a long inline dump | Owner clarified the original site behavior — the long ~2021–2025 entry list should stay browsable without dominating the Home page. Decided 2026-05-19 mid-Phase-1 setup. | — Pending |
 | CV is a real PDF file (`Ivoline_Ngong_CV_August_2025.pdf` at repo root, will move to `assets/`); CV link opens the PDF | Owner provided the file and prefers a direct PDF link over a CV page or external service. Decided 2026-05-19 mid-Phase-1 setup. | — Pending |
+| Privacy-respecting analytics added (GoatCounter at `ivolinengong.goatcounter.com`) | Owner wants visit telemetry per page to see which new posts get read. Refines PROJECT-BRIEF.md §9 "no analytics" line: the original intent was no PII/cookie-tracking; GoatCounter has neither so it doesn't violate that intent. Snippet added to all 7 HTML pages including `posts/_template.html` so future posts inherit it. Decided 2026-05-25 after site went live. | ✓ Live |
 
 ## Evolution
 
