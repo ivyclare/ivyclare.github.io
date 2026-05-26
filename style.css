@@ -675,8 +675,54 @@ a:focus-visible {
    ------------------------------------------------------------ */
 
 .post {
-  max-width: 70ch;
+  max-width: 82ch;
   margin-inline: auto;
+}
+
+/* TL;DR navigation box — sits between the intro and the first section
+   header so readers can jump to whichever lesson they need. */
+.post-tldr {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4) var(--space-6) var(--space-3);
+  margin: var(--space-10) 0 var(--space-12);
+}
+
+.post-tldr .post-tldr-title {
+  font-size: 15px;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  color: var(--text-strong);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.post-tldr ul {
+  margin: 0;
+  padding-left: var(--space-6);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.post-tldr li {
+  margin: 0;
+}
+
+.post-tldr a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.post-tldr a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* When jumping via anchor link, leave some breathing room above the
+   target heading instead of jamming it to the viewport top. */
+.post h2 {
+  scroll-margin-top: var(--space-6);
 }
 
 .post header {
