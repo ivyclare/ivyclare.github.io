@@ -762,6 +762,13 @@ a:focus-visible {
   font-size: 15px;
 }
 
+.post .post-update-note {
+  margin-top: var(--space-8);
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 /* Wide journey-figure (lets the image breathe past the 70ch body cap) */
 .post .journey-figure {
   margin: var(--space-12) 0 var(--space-8);
